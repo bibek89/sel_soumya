@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="2" guice-stage="DEVELOPMENT" name="Failed suite [Suite]" parallel="tests">
+  <parameter name="browser" value="chrome"/>
+  <test name="TestR2(failed)" parallel="tests">
+    <parameter name="browser" value="chrome"/>
+    <classes>
+      <class name="Image.ScreenShot_Test">
+        <methods>
+          <include name="gmail_Test"/>
+          <include name="configBM"/>
+          <include name="configBM"/>
+        </methods>
+      </class> <!-- Image.ScreenShot_Test -->
+    </classes>
+  </test> <!-- TestR2(failed) -->
+  <test name="TestR1(failed)" parallel="tests">
+    <parameter name="browser" value="firefox"/>
+    <classes>
+      <class name="Image.ScreenShot_Test">
+        <methods>
+          <include name="gmail_Test"/>
+          <include name="configBM"/>
+          <include name="configBM"/>
+        </methods>
+      </class> <!-- Image.ScreenShot_Test -->
+    </classes>
+  </test> <!-- TestR1(failed) -->
+</suite> <!-- Failed suite [Suite] -->

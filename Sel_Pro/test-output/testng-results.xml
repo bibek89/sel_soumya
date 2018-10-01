@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="82277" started-at="2018-10-01T05:28:36Z" finished-at="2018-10-01T05:29:58Z">
+    <groups>
+    </groups>
+    <test name="TestR2" duration-ms="74992" started-at="2018-10-01T05:28:36Z" finished-at="2018-10-01T05:29:51Z">
+      <class name="Image.ScreenShot_Test">
+        <test-method status="PASS" signature="configBC(java.lang.String)[pri:0, instance:Image.ScreenShot_Test@1794d431]" name="configBC" is-config="true" duration-ms="15853" started-at="2018-10-01T10:58:36Z" finished-at="2018-10-01T10:58:52Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configBC -->
+        <test-method status="PASS" signature="configBM()[pri:0, instance:Image.ScreenShot_Test@1794d431]" name="configBM" is-config="true" duration-ms="23798" started-at="2018-10-01T10:58:52Z" finished-at="2018-10-01T10:59:15Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configBM -->
+        <test-method status="PASS" signature="gmail_Test()[pri:0, instance:Image.ScreenShot_Test@1794d431]" name="gmail_Test" duration-ms="41" started-at="2018-10-01T10:59:15Z" finished-at="2018-10-01T10:59:15Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- gmail_Test -->
+        <test-method status="PASS" signature="configAM()[pri:0, instance:Image.ScreenShot_Test@1794d431]" name="configAM" is-config="true" duration-ms="34369" started-at="2018-10-01T10:59:15Z" finished-at="2018-10-01T10:59:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configAM -->
+        <test-method status="PASS" signature="configAC()[pri:0, instance:Image.ScreenShot_Test@1794d431]" name="configAC" is-config="true" duration-ms="878" started-at="2018-10-01T10:59:50Z" finished-at="2018-10-01T10:59:51Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configAC -->
+      </class> <!-- Image.ScreenShot_Test -->
+    </test> <!-- TestR2 -->
+    <test name="TestR1" duration-ms="82277" started-at="2018-10-01T05:28:36Z" finished-at="2018-10-01T05:29:58Z">
+      <class name="Image.ScreenShot_Test">
+        <test-method status="PASS" signature="configBC(java.lang.String)[pri:0, instance:Image.ScreenShot_Test@26653222]" name="configBC" is-config="true" duration-ms="62247" started-at="2018-10-01T10:58:36Z" finished-at="2018-10-01T10:59:38Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configBC -->
+        <test-method status="PASS" signature="configBM()[pri:0, instance:Image.ScreenShot_Test@26653222]" name="configBM" is-config="true" duration-ms="14587" started-at="2018-10-01T10:59:38Z" finished-at="2018-10-01T10:59:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configBM -->
+        <test-method status="PASS" signature="gmail_Test()[pri:0, instance:Image.ScreenShot_Test@26653222]" name="gmail_Test" duration-ms="2324" started-at="2018-10-01T10:59:53Z" finished-at="2018-10-01T10:59:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- gmail_Test -->
+        <test-method status="PASS" signature="configAM()[pri:0, instance:Image.ScreenShot_Test@26653222]" name="configAM" is-config="true" duration-ms="2273" started-at="2018-10-01T10:59:55Z" finished-at="2018-10-01T10:59:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configAM -->
+        <test-method status="PASS" signature="configAC()[pri:0, instance:Image.ScreenShot_Test@26653222]" name="configAC" is-config="true" duration-ms="806" started-at="2018-10-01T10:59:57Z" finished-at="2018-10-01T10:59:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configAC -->
+      </class> <!-- Image.ScreenShot_Test -->
+    </test> <!-- TestR1 -->
+  </suite> <!-- Suite -->
+</testng-results>
